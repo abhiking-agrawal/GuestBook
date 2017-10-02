@@ -1,0 +1,24 @@
+{
+  "name": "m06",
+  "version": "1.0.0",
+  "description": "M06 assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://s530670@bitbucket.org/s530670/m06.git"
+  },
+  "keywords": [
+    "Chat",
+    "HTML5",
+    "CSS"
+  ],
+  "author": "Abhijeet Prakash Agrawal",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/s530670/m06#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
