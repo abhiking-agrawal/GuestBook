@@ -19,6 +19,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/s530670/m06#readme",
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.16.1",
+    "socket.io": "^2.0.3"
   }
 }

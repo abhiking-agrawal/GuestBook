@@ -1,29 +1,18 @@
-# README #
+# M06 Chat Example
 
-This README would normally document whatever steps are necessary to get your application up and running.
+A simple chat demo using node.js, express, and socket.io
 
-### What is this repository for? ###
+## How to use
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Open a command window in your c:\44563\m06 folder.
 
-### How do I get set up? ###
+Run npm install to install all the dependencies in the package.json file.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Run node server.js to start the server.  (Hit CTRL-C to stop.)
 
-### Contribution guidelines ###
+```
+> npm install
+> node server.js
+```
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+Point your browser to `http://localhost:8081`. 
