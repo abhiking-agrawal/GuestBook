@@ -1,10 +1,10 @@
-# M06 Chat Example
+# W06 Chat Example
 
 A simple chat demo using node.js, express, and socket.io
 
 ## How to use
 
-Open a command window in your c:\44563\m06 folder.
+Open a command window in your 44563 - w06 folder.
 
 Run npm install to install all the dependencies in the package.json file.
 

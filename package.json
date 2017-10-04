@@ -1,14 +1,14 @@
 {
-  "name": "m06",
+  "name": "w06",
   "version": "1.0.0",
-  "description": "M06 assignment",
+  "description": "w06 assignment",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://s530670@bitbucket.org/s530670/m06.git"
+    "url": "git+https://s530670@bitbucket.org/s530670/w06.git"
   },
   "keywords": [
     "Chat",
@@ -17,7 +17,7 @@
   ],
   "author": "Abhijeet Prakash Agrawal",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/s530670/m06#readme",
+  "homepage": "https://bitbucket.org/s530670/w06#readme",
   "dependencies": {
     "express": "^4.16.1",
     "socket.io": "^2.0.3"
