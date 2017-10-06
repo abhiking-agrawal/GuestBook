@@ -30,7 +30,13 @@ function notifyTyping() {
     var me = $('#user').val()
     var color = (from == me) ? 'green' : '#009afd'
     var from = (from == me) ? 'Me' : from
-    $('#messages').append('<li><b style="color:' + color + '">' + from + '</b>: ' + msg + '</li>')
+    console.log(from)
+    if(from == "System")
+      $('#messages').append('<li style ="text-align:center"><b style="color:#7b5e39"><div>' + msg + '</div></li>')
+    else if(from == "Me")
+      $('#messages').append('<li class="chatText" style ="text-align:right"><b style="color:' + color + '"><div>' + from + '</b>: ' + msg + '</div></li>')
+    else
+      $('#messages').append('<li class="chatText" style ="text-align:left"><b style="color:' + color + '"><div>' + from + '</b>: ' + msg + '</div></li>')
   })
 
   // react to a notifyUser event...........................
@@ -49,7 +55,7 @@ socket.on('notifyUser', function (user) {
     var name = makeid()
     $('#user').val(name)
     // emit a chatMessage event from the System along with a message 
-    socket.emit('chatMessage', 'System', '<b>' + name + '</b> has joined the discussion')
+    socket.emit('chatMessage', 'System', '<b>' + name + '</b> has joined.')
   })
 
   // utility function to create a new random user name.........
