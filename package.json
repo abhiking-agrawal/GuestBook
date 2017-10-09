@@ -1,25 +1,18 @@
-{
-  "name": "w06",
-  "version": "1.0.0",
-  "description": "w06 assignment",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://s530670@bitbucket.org/s530670/w06.git"
-  },
-  "keywords": [
-    "Chat",
-    "HTML5",
-    "CSS"
-  ],
-  "author": "Abhijeet Prakash Agrawal",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/s530670/w06#readme",
-  "dependencies": {
-    "express": "^4.16.1",
-    "socket.io": "^2.0.3"
-  }
+{   "name": "M07",
+    "version": "0.0.1",
+    "description": "simple guestbook app",
+    "main": "gbapp.js",
+    "dependencies": {
+        "express": "latest",
+        "morgan": "latest",
+        "body-parser": "latest",
+        "ejs": "latest"
+    },
+    "author": "Abhijeet Prakash Agrawal",
+    "homepage": "https://bitbucket.org/professorcase/m07",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/professorcase/m07"
+    },
+     "license": "Apache-2.0"
 }
