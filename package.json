@@ -9,10 +9,10 @@
         "ejs": "latest"
     },
     "author": "Abhijeet Prakash Agrawal",
-    "homepage": "https://bitbucket.org/professorcase/m07",
+    "homepage": "https://bitbucket.org/s530670/m07",
     "repository": {
         "type": "git",
-        "url": "https://bitbucket.org/professorcase/m07"
+        "url": "https://bitbucket.org/s530670/m07"
     },
      "license": "Apache-2.0"
 }
