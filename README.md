@@ -1,10 +1,10 @@
-# W06 Chat Example
+# M07 Express Guestbook
 
-A simple chat demo using node.js, express, and socket.io
+A simple express app which stores the guest details and provide services to browse.
 
 ## How to use
 
-Open a command window in your 44563 - w06 folder.
+Open a command window in your 44563 - m07 folder.
 
 Run npm install to install all the dependencies in the package.json file.
 
