@@ -38,6 +38,7 @@ app.post("/new-entry", function (request, response) {
     content: request.body.body,
     published: new Date()
   });
+  console.log(JSON.stringify(entries));
   response.redirect("/");  // where to go next? Let's go to the home page :)
 });
 
