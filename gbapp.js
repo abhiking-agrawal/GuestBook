@@ -6,6 +6,9 @@ var bodyParser = require("body-parser");
 var app = express();  // make express app
 var server = require('http').createServer(app); // inject app into the server
 
+//public folder
+app.use(express.static(__dirname + '/assets'))
+
 // 1 set up the view engine
 app.set("views", path.resolve(__dirname, "views")); // path to views
 app.set("view engine", "ejs"); // specify our view engine
@@ -38,7 +41,6 @@ app.post("/new-entry", function (request, response) {
     content: request.body.body,
     published: new Date()
   });
-  console.log(JSON.stringify(entries));
   response.redirect("/");  // where to go next? Let's go to the home page :)
 });
 

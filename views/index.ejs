@@ -1,6 +1,10 @@
 <% include header %>
 <% if (entries.length) { %>
-<% entries.forEach(function(entry) { %>
+<% entries.forEach(function(entry) {
+    console.log("Post published :" + entry.published)
+    console.log("Post title :" + entry.title)
+    console.log("Post content :" + entry.content)
+    %>
 <div class="panel panel-default">
 <div class="panel-heading">
 <div class="text-muted pull-right">

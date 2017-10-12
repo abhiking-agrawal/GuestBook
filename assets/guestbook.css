@@ -1,0 +1,15 @@
+*{
+    font-family: "Comic Sans MS" !important;
+}
+.text-muted {
+    color: #8427fb;
+}
+.panel-default{
+    margin: 4em;
+}
+.panel-default>.panel-heading {
+    background-color: #f1ffed;
+}
+.footer{
+    color: #de2f2f;
+}
