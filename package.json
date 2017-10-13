@@ -2,6 +2,9 @@
     "version": "0.0.1",
     "description": "simple guestbook app",
     "main": "gbapp.js",
+      "scripts": {
+        "start": "npm install && node gbapp.js"
+      }
     "dependencies": {
         "express": "latest",
         "morgan": "latest",
