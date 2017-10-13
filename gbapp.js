@@ -50,6 +50,6 @@ app.use(function (request, response) {
 });
 
 // Listen for an application request on port 8081 & notify the developer
-server.listen(8081, function () {
+server.listen(process.env.PORT ||8081, function () {
   console.log('Guestbook app listening on http://127.0.0.1:8081/');
 });
