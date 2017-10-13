@@ -4,7 +4,7 @@
     "main": "gbapp.js",
       "scripts": {
         "start": "npm install && node gbapp.js"
-      }
+      },
     "dependencies": {
         "express": "latest",
         "morgan": "latest",
